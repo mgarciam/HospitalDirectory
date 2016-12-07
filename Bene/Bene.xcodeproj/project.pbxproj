@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913A63BC1D4F0E9800E1189E /* PreRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913A63BB1D4F0E9800E1189E /* PreRegister.storyboard */; };
+		913A63BE1D4F0F5700E1189E /* PreRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A63BD1D4F0F5700E1189E /* PreRegisterViewController.swift */; };
+		915DD3341D484407003B7FCE /* MedicineRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DD3331D484407003B7FCE /* MedicineRemindersViewController.swift */; };
+		91B713B21D38090800E82EBF /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B713B11D38090800E82EBF /* DoctorProfileViewController.swift */; };
+		F31A03D71D3FF9760086D173 /* DatePickerReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A03D61D3FF9760086D173 /* DatePickerReminderViewController.swift */; };
+		F31A03DF1D3FFD510086D173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31A03DE1D3FFD510086D173 /* Main.storyboard */; };
+		F32ADDF61D1F3CF60005DE75 /* DirectorioDoctoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32ADDF51D1F3CF50005DE75 /* DirectorioDoctoresTableViewController.swift */; };
+		F35435721D50F117007D22CB /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35435711D50F117007D22CB /* About.storyboard */; };
+		F37233D11D39598A0035A9A1 /* ReminderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37233D01D39598A0035A9A1 /* ReminderListViewModel.swift */; };
+		F38803BE1D468CEB001A9347 /* UILocalNotification-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38803BD1D468CEB001A9347 /* UILocalNotification-Extension.swift */; };
+		F39F66AB1D4FBA0D003F6A6A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F66AA1D4FBA0D003F6A6A /* AboutViewController.swift */; };
+		F39F66AF1D4FCFBE003F6A6A /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F66AE1D4FCFBE003F6A6A /* UIViewController-Extension.swift */; };
+		F3B6240A1D1D94140090B35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B624091D1D94140090B35F /* AppDelegate.swift */; };
+		F3B6240F1D1D94140090B35F /* Doctores.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B6240D1D1D94140090B35F /* Doctores.storyboard */; };
+		F3B624111D1D94140090B35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B624101D1D94140090B35F /* Assets.xcassets */; };
+		F3B624141D1D94140090B35F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B624121D1D94140090B35F /* LaunchScreen.storyboard */; };
+		F3B624201D1D954A0090B35F /* DoctoresDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6241F1D1D954A0090B35F /* DoctoresDataSource.swift */; };
+		F3B624221D1D9F7B0090B35F /* DoctoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B624211D1D9F7B0090B35F /* DoctoresViewModel.swift */; };
+		F3B8A4351D523D6600C53E6C /* UIAlertController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B8A4341D523D6600C53E6C /* UIAlertController-Extension.swift */; };
+		F3BA9C9D1D4934930041AD4D /* DateFormatter-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BA9C9C1D4934930041AD4D /* DateFormatter-Extension.swift */; };
+		F3BE3DD51D270A1300841AD2 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3DD41D270A1300841AD2 /* RemindersTableViewController.swift */; };
+		F3BE3DD91D270C2400841AD2 /* Reminders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE3DD81D270C2400841AD2 /* Reminders.storyboard */; };
+		F3D659911D3028250040A5A6 /* FilterSpecialtiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D659901D3028250040A5A6 /* FilterSpecialtiesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		913A63BB1D4F0E9800E1189E /* PreRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PreRegister.storyboard; sourceTree = "<group>"; };
+		913A63BD1D4F0F5700E1189E /* PreRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreRegisterViewController.swift; sourceTree = "<group>"; };
+		915DD3331D484407003B7FCE /* MedicineRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineRemindersViewController.swift; sourceTree = "<group>"; };
+		91B713B11D38090800E82EBF /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		F31A03D61D3FF9760086D173 /* DatePickerReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerReminderViewController.swift; sourceTree = "<group>"; };
+		F31A03DE1D3FFD510086D173 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F32ADDF51D1F3CF50005DE75 /* DirectorioDoctoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectorioDoctoresTableViewController.swift; sourceTree = "<group>"; };
+		F35435711D50F117007D22CB /* About.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		F37233D01D39598A0035A9A1 /* ReminderListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListViewModel.swift; sourceTree = "<group>"; };
+		F38803BD1D468CEB001A9347 /* UILocalNotification-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILocalNotification-Extension.swift"; sourceTree = "<group>"; };
+		F39F66AA1D4FBA0D003F6A6A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F39F66AE1D4FCFBE003F6A6A /* UIViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
+		F3B624061D1D94130090B35F /* Bene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B624091D1D94140090B35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B6240E1D1D94140090B35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Doctores.storyboard; sourceTree = "<group>"; };
+		F3B624101D1D94140090B35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B624131D1D94140090B35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B624151D1D94140090B35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B6241F1D1D954A0090B35F /* DoctoresDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctoresDataSource.swift; sourceTree = "<group>"; };
+		F3B624211D1D9F7B0090B35F /* DoctoresViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctoresViewModel.swift; sourceTree = "<group>"; };
+		F3B8A4341D523D6600C53E6C /* UIAlertController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController-Extension.swift"; sourceTree = "<group>"; };
+		F3BA9C9C1D4934930041AD4D /* DateFormatter-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter-Extension.swift"; sourceTree = "<group>"; };
+		F3BE3DD41D270A1300841AD2 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		F3BE3DD81D270C2400841AD2 /* Reminders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Reminders.storyboard; path = ../Reminders.storyboard; sourceTree = "<group>"; };
+		F3D659901D3028250040A5A6 /* FilterSpecialtiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSpecialtiesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B624031D1D94130090B35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31A03D81D3FFBC20086D173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35435711D50F117007D22CB /* About.storyboard */,
+				913A63BB1D4F0E9800E1189E /* PreRegister.storyboard */,
+				F3B624121D1D94140090B35F /* LaunchScreen.storyboard */,
+				F3B6240D1D1D94140090B35F /* Doctores.storyboard */,
+				F3BE3DD81D270C2400841AD2 /* Reminders.storyboard */,
+				F3B624101D1D94140090B35F /* Assets.xcassets */,
+				F3B624151D1D94140090B35F /* Info.plist */,
+				F31A03DE1D3FFD510086D173 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F31A03D91D3FFBCC0086D173 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				913A63BD1D4F0F5700E1189E /* PreRegisterViewController.swift */,
+				F39F66AA1D4FBA0D003F6A6A /* AboutViewController.swift */,
+				915DD3331D484407003B7FCE /* MedicineRemindersViewController.swift */,
+				F3BE3DD41D270A1300841AD2 /* RemindersTableViewController.swift */,
+				F32ADDF51D1F3CF50005DE75 /* DirectorioDoctoresTableViewController.swift */,
+				91B713B11D38090800E82EBF /* DoctorProfileViewController.swift */,
+				F3D659901D3028250040A5A6 /* FilterSpecialtiesViewController.swift */,
+				F31A03D61D3FF9760086D173 /* DatePickerReminderViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F31A03DA1D3FFBDE0086D173 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F37233D01D39598A0035A9A1 /* ReminderListViewModel.swift */,
+				F3B624211D1D9F7B0090B35F /* DoctoresViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31A03DB1D3FFBE50086D173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3BA9C9C1D4934930041AD4D /* DateFormatter-Extension.swift */,
+				F38803BD1D468CEB001A9347 /* UILocalNotification-Extension.swift */,
+				F39F66AE1D4FCFBE003F6A6A /* UIViewController-Extension.swift */,
+				F3B6241F1D1D954A0090B35F /* DoctoresDataSource.swift */,
+				F3B8A4341D523D6600C53E6C /* UIAlertController-Extension.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F3B623FD1D1D94130090B35F = {
+			isa = PBXGroup;
+			children = (
+				F3B624081D1D94140090B35F /* Bene */,
+				F3B624071D1D94130090B35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B624071D1D94130090B35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B624061D1D94130090B35F /* Bene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B624081D1D94140090B35F /* Bene */ = {
+			isa = PBXGroup;
+			children = (
+				F3B624091D1D94140090B35F /* AppDelegate.swift */,
+				F31A03DB1D3FFBE50086D173 /* Model */,
+				F31A03DA1D3FFBDE0086D173 /* ViewModel */,
+				F31A03D91D3FFBCC0086D173 /* ViewControllers */,
+				F31A03D81D3FFBC20086D173 /* Supporting Files */,
+			);
+			path = Bene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B624051D1D94130090B35F /* Bene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B624181D1D94140090B35F /* Build configuration list for PBXNativeTarget "Bene" */;
+			buildPhases = (
+				F3B624021D1D94130090B35F /* Sources */,
+				F3B624031D1D94130090B35F /* Frameworks */,
+				F3B624041D1D94130090B35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bene;
+			productName = Bene;
+			productReference = F3B624061D1D94130090B35F /* Bene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B623FE1D1D94130090B35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = davidmar;
+				TargetAttributes = {
+					F3B624051D1D94130090B35F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8MS87H3FQ4;
+					};
+				};
+			};
+			buildConfigurationList = F3B624011D1D94130090B35F /* Build configuration list for PBXProject "Bene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B623FD1D1D94130090B35F;
+			productRefGroup = F3B624071D1D94130090B35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B624051D1D94130090B35F /* Bene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B624041D1D94130090B35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE3DD91D270C2400841AD2 /* Reminders.storyboard in Resources */,
+				F35435721D50F117007D22CB /* About.storyboard in Resources */,
+				F31A03DF1D3FFD510086D173 /* Main.storyboard in Resources */,
+				F3B624141D1D94140090B35F /* LaunchScreen.storyboard in Resources */,
+				913A63BC1D4F0E9800E1189E /* PreRegister.storyboard in Resources */,
+				F3B624111D1D94140090B35F /* Assets.xcassets in Resources */,
+				F3B6240F1D1D94140090B35F /* Doctores.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B624021D1D94130090B35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B8A4351D523D6600C53E6C /* UIAlertController-Extension.swift in Sources */,
+				F39F66AB1D4FBA0D003F6A6A /* AboutViewController.swift in Sources */,
+				F37233D11D39598A0035A9A1 /* ReminderListViewModel.swift in Sources */,
+				915DD3341D484407003B7FCE /* MedicineRemindersViewController.swift in Sources */,
+				F3B624201D1D954A0090B35F /* DoctoresDataSource.swift in Sources */,
+				F3B624221D1D9F7B0090B35F /* DoctoresViewModel.swift in Sources */,
+				F3B6240A1D1D94140090B35F /* AppDelegate.swift in Sources */,
+				F3BA9C9D1D4934930041AD4D /* DateFormatter-Extension.swift in Sources */,
+				F39F66AF1D4FCFBE003F6A6A /* UIViewController-Extension.swift in Sources */,
+				91B713B21D38090800E82EBF /* DoctorProfileViewController.swift in Sources */,
+				F32ADDF61D1F3CF60005DE75 /* DirectorioDoctoresTableViewController.swift in Sources */,
+				913A63BE1D4F0F5700E1189E /* PreRegisterViewController.swift in Sources */,
+				F3BE3DD51D270A1300841AD2 /* RemindersTableViewController.swift in Sources */,
+				F3D659911D3028250040A5A6 /* FilterSpecialtiesViewController.swift in Sources */,
+				F38803BE1D468CEB001A9347 /* UILocalNotification-Extension.swift in Sources */,
+				F31A03D71D3FF9760086D173 /* DatePickerReminderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B6240D1D1D94140090B35F /* Doctores.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B6240E1D1D94140090B35F /* Base */,
+			);
+			name = Doctores.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B624121D1D94140090B35F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B624131D1D94140090B35F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B624161D1D94140090B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B624171D1D94140090B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B624191D1D94140090B35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmar.Bene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3B6241A1D1D94140090B35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmar.Bene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B624011D1D94130090B35F /* Build configuration list for PBXProject "Bene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B624161D1D94140090B35F /* Debug */,
+				F3B624171D1D94140090B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B624181D1D94140090B35F /* Build configuration list for PBXNativeTarget "Bene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B624191D1D94140090B35F /* Debug */,
+				F3B6241A1D1D94140090B35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B623FE1D1D94130090B35F /* Project object */;
+}

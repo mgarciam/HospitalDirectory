@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V0x-Kz-nG4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="h23-sZ-J7h">
+            <objects>
+                <viewController title="About" id="zbr-zt-L9g" customClass="AbouViewController" customModule="Bene" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qjw-gl-cpP"/>
+                        <viewControllerLayoutGuide type="bottom" id="n1G-yX-xkz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jeR-1M-pSb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Oc-CE-7eU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Una historia muy antigua
+
+El maíz es originario de México. Gracias a los restos de semillas hallados en Tehuacán, Puebla, sabemos que hace siete mil años se inició su cultivo.
+  
+Su domesticación fue muy importante para que los grupos nómadas se volvieran sedentarios y su cultivo fue el sustento de los pueblos mesoamericanos.
+
+El elote, como se llamaba en Mesoamérica (la palabra “maíz” viene del caribe) era el cultivo más consumido y el que más aguantaba las variaciones del clima y, por ello, el más leal y cercano a la vida indígena.
+
+Un alimento sagrado
+
+Los mesoamericanos utilizaban el maíz no sólo para la alimentación, sino también como parte importante de sus ceremonias religiosas.
+
+Esto se puede ver en culturas como la mexica, que adoraban a la diosa del maíz, Centéotl; en las de los mayas, con historias como la del Popol Vuh, que cuenta que el hombre fue creado por los dioses con el maíz.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Oc-CE-7eU" firstAttribute="centerX" secondItem="jeR-1M-pSb" secondAttribute="centerX" id="MpY-Y8-Lma"/>
+                            <constraint firstItem="8Oc-CE-7eU" firstAttribute="centerY" secondItem="jeR-1M-pSb" secondAttribute="centerY" id="paa-cE-J4t"/>
+                            <constraint firstItem="8Oc-CE-7eU" firstAttribute="height" secondItem="jeR-1M-pSb" secondAttribute="height" id="qBY-v8-KVu"/>
+                            <constraint firstItem="8Oc-CE-7eU" firstAttribute="width" secondItem="jeR-1M-pSb" secondAttribute="width" id="vVM-Ob-oIV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hospital" id="YZ1-mu-O2m">
+                        <barButtonItem key="rightBarButtonItem" title="📞" id="8EC-Q6-ZDr">
+                            <connections>
+                                <action selector="callToAHospital:" destination="zbr-zt-L9g" id="gX3-5S-hhP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w3y-oZ-c71" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="148"/>
+        </scene>
+        <!--Acerca de -->
+        <scene sceneID="ex9-5H-OSn">
+            <objects>
+                <navigationController title="Acerca de " automaticallyAdjustsScrollViewInsets="NO" id="V0x-Kz-nG4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eCF-i8-VG6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zbr-zt-L9g" kind="relationship" relationship="rootViewController" id="GS7-QJ-A8A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5hh-rj-kaf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511" y="148"/>
+        </scene>
+    </scenes>
+</document>
